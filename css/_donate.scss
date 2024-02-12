@@ -1,0 +1,82 @@
+/**Hero Section Style**/
+
+.donate-hero{
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/hero.jpg') center center/cover;
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 160px 200px;
+        color: #fff;
+
+        h1{
+            font-size: 50px;
+            font-weight: 500;
+        }
+    }
+}
+
+
+/**Hero Section Style**/
+
+.donate-hero{
+    height: 98vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url('../img/donate-hero.jpg') center top/cover;
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 300px 200px;
+        color: $white-color;
+
+        h1{
+            font-size: 50px;
+            font-weight: 600;
+        }
+
+        h2{
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+/**Donate Box Section Style**/
+
+.donate-box{
+    padding: 60px 30%;
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border: 2px solid #000;
+        border-radius: 5px;
+
+        a{
+            background-color: $primary-color;
+            width: 35vw;
+            height: 10vh;
+            margin: 15px;
+            border-radius: 5px;
+            color: $white-color;
+            text-align: center;
+            font-size: 25px;
+            font-weight: 600;
+            padding-top: 18px;
+            transition: all 0.5s;
+
+            &:hover{
+                background-color: $black-color;
+            }
+        }
+    }
+}

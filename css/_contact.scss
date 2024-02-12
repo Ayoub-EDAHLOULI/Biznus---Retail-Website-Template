@@ -1,0 +1,112 @@
+
+/**Hero Section Style**/
+
+.contact-hero{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.9)), url('../img/contact-hero.jpg') top center/cover;
+    height: 98vh;
+    width: 100%;
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 160px 200px;
+        color: #fff;
+
+        h2{
+            font-size: 50px;
+            font-weight: 500;
+        }
+
+        .box{
+            display: flex;
+            flex-wrap: wrap;
+
+            .box1,.box2{
+                width: 23vw;
+                height: 50vh;
+                background-color: $white-color;
+                margin: 20px 10px;
+                border-radius: 10px;
+                color: $black-color;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                i{
+                    font-size: 40px;
+                    color: $primary-color;
+                    margin: 30px 0;
+                }
+
+                h3{
+                    font-size: 30px;
+                    font-weight: 600;
+                    color: $secondary-color;
+                }
+
+                p{
+                    padding: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+/**Contact Section Style**/
+
+form{
+    padding: 80px 150px;
+    width: 100%;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+
+        .left-side{
+            width: 33%;
+            h2{
+                font-size: 40px;
+                font-weight: 500;
+                margin-bottom: 20px;
+            }
+            .addresse{
+                margin-top: 30px;
+
+                p{
+                    h4{
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+
+        .right-side{
+            display: flex;
+            flex-direction: column;
+            width: 66%;
+
+            h2{
+                font-size: 40px;
+                font-weight: 500;
+                margin-bottom: 20px;
+            }
+
+            label{
+                margin: 10px 0;
+            }
+
+            input,textarea{
+                border: 1px solid $black-color;
+                padding: 10px;
+                border-radius: 10px;
+                outline: none;
+
+                &:hover{
+                    border: 1px solid $primary-color;
+                }
+            }
+        }
+    }
+}

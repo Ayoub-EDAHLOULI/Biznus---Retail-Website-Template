@@ -1,0 +1,215 @@
+
+/**Hero Section Style**/
+
+.about-hero{
+    height: 95vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.9)), url('../img/about-hero.jpg') center center/cover;
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 220px 200px;
+        color: #fff;
+
+        h1{
+            font-size: 50px;
+            font-weight: 500;
+        }
+
+        p{
+            margin-top: 10px;
+        }
+    }
+}
+
+
+/**Second Section Style**/
+
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+
+    .top-side{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $secondary-color;
+
+        h5{
+            text-transform: uppercase;
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+
+        h2{
+            font-size: 30px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: $secondary-color;
+        }
+
+        p{
+            width: 40vw;
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+
+    .bottom-side{
+        margin-top: 60px;
+
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .card1,.card2,.card3,.card4{
+                width: 20%;
+                padding: 0 20px;
+
+                i{
+                    color: $primary-color;
+                    font-size: 40px;
+                    margin-bottom: 20px;
+                    margin-left: 5px;
+                }
+
+                h2{
+                    font-size: 22px;
+                    font-weight: 600;
+                    color: $secondary-color;
+                }
+
+                p{
+                    margin-top: 10px;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+}
+
+
+/**Banner Section Style**/
+
+
+.about-banner{
+    margin: 40px 0;
+    padding: 50px;
+
+    .container{
+        background-color: $secondary-color;
+        width: 60vw;
+        height: 103vh;
+        border-radius: 5px;
+        color: $white-color;
+        position: relative;
+        left: 420px;
+        padding: 60px;
+
+        .img{
+            width: 35vw;
+            height: 80vh;
+            background: url("../img/about-banner.jpg") bottom center/cover;
+            border-radius: 5px;
+            position: absolute;
+            bottom: 80px;
+            left: -320px;
+        }
+
+        .info{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            padding: -2px 80px;
+            margin-left: 250px;
+            width: 35vw;
+
+            h1{
+                font-size: 40px;
+                margin-bottom: 30px;
+                font-weight: 600;
+            }
+
+            p{
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+
+/**About Cards Section Style**/
+
+.about-cards{
+    .container{
+        .card1,.card2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 40%;
+            margin: 0 60px;
+            padding: 20px;
+            
+            .img{
+                background: url('../img/about-card1.png') center center/cover;
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+
+            h2{
+                font-size: 25px;
+                color: $secondary-color;
+                margin: 10px 0;
+                font-weight: 600;
+            }
+
+            p{
+                text-align: center;
+                font-size: 15px;
+                line-height: 25px;
+            }
+        }
+
+        .card2{
+            .img{background: url('../img/about-card2.png') center center/cover;}
+        }
+    }
+}
+
+
+
+/**Banner and Footer Section Style**/
+
+.about-banner-footer{
+
+    .about-banner{
+        background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.9)), url('../img/about-footer.jpg') center center/cover;
+        height: 90vh;
+
+        .text{
+            width: 40vw;
+            color: $white-color;
+            margin-top: 150px;
+            margin-left: 100px;
+
+            h1{
+                font-size: 45px;
+                font-weight: 600;
+            }
+
+            p{
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

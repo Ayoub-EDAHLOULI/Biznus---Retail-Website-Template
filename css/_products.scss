@@ -1,0 +1,98 @@
+/**Products Section Style**/
+
+.product-detail{
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+        padding: 100px;
+
+        .left-side{
+            margin: 10px 0;
+
+            .img,.img2{
+                height: 70vh;
+                width: 30vw;
+                background: url('../img/product1.jpg') center center/cover;
+                border-radius: 10px;
+            }
+        }
+
+        .right-side{
+            margin-left: 50px;
+            
+
+            h2{
+                font-size: 35px;
+                font-weight: 600;
+                color: $secondary-color;
+            }
+
+            span{
+                font-size: 14px;
+                font-weight: 600;
+
+                del{
+                    color: $primary-color;
+                    margin-left: 3px;
+                }
+            }
+
+            h5{
+                margin-top: 10px;
+            }
+
+            .counter{
+                margin-top: 10px;
+                input{
+                    border: 1px solid $black-color;
+                    border-radius: 5px;
+                    outline: none;
+                }
+
+                a{
+                    margin-left: 10px;
+                }
+            }
+
+            h1{
+                margin: 20px 0;
+                font-size: 30px;
+                font-weight: 600;
+                color: $secondary-color;
+            }
+
+            h3{
+                font-size: 18px;
+                font-weight: 600;
+                color: $secondary-color;
+                margin:20px 0;
+            }
+
+            p{
+                margin: 10px 0;
+                font-size: 15px;
+                color: $third-color;
+            }
+        }
+    }
+}
+
+.product-detail{
+    .container{
+        .left-side{
+            .img2{
+                background: url('../img/product2.jpg') center center/cover;
+            }
+            .img3{
+                background: url('../img/product3.jpg') center center/cover;
+            }
+            .img4{
+                background: url('../img/shop-product1.jpg') center center/cover;
+            }
+            .img5{
+                background: url('../img/shop-product4.jpg') center center/cover;
+            }
+        }
+    }
+}
